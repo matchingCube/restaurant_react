@@ -1,0 +1,68 @@
+.cartBill {
+  overflow-y: auto;
+  max-height: 340px;
+}
+.onCartDishList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onCartDishListItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  padding: 12px 8px;
+}
+.onCartDishListItem .title {
+  width: 54%;
+  overflow-wrap: break-word;
+}
+.onCartDishListItem .button-set {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.onCartDishListItem .button-set button {
+  border: none;
+  background-color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.onCartDishListItem .button-set button.yellow-color {
+  color: rgb(194, 173, 13);
+  width: 35%;
+}
+.onCartDishListItem .button-set button.black-color {
+  color: #222;
+  width: 30%;
+  font-size: 16px;
+  font-weight: 700;
+}
+.onCartDishListItem .price {
+  width: 18%;
+  text-align: right;
+}
+#totalPriceItem.onCartDishListItem {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.btn-checkout {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
